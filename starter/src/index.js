@@ -24,9 +24,9 @@ function countingNumbers(){
     var LiczbaInputow = document.getElementById("LiczbaInputow").value;
     var main = document.getElementById('main');
 
-    var dodanieInputow = Number(LiczbaInputow);
+    var addInput = Number(LiczbaInputow);
 
-    for(i = 0;i<dodanieInputow;i++){       
+    for(i = 0;i<addInput;i++){       
         var input = document.createElement('input');
 
         input.type="number";       
